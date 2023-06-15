@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="saveToLocalStorage(event)">
+        <label >Name</label>
+        <input type="text" id="name" name="name" required/>
+        <label >Email</label>
+        <input type="email" id="email" name="email" required/>
+        <label >Phone Number</label>
+        <input type="number" id="phone" name="phone" required/>
+        <button >Submit</button>
+    </form>
+    <ul id="listOfUsers"></ul>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="root.js"></script>
+</body>
+</html>
